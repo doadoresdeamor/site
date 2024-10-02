@@ -2,8 +2,10 @@
 
 <div align="center">
    <img width="510"src="./assets/img/readme/readme-photo.webp">
+</div> <br>
+<div align="center">
+Somos um grupo de voluntários de Caxias do Sul (RS) que desde 2017 leva amor a quem mais precisa! 💗
 </div>
-
 
 ## Tecnologias Utilizadas
 
@@ -15,7 +17,7 @@
   
 </div>
 
-## Sobre o Aluno
+## Sobre o Desenvolvedor
 <div align="center">
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lobster&weight=600&size=30&duration=3000&pause=700&color=6e57e0&center=true&vCenter=true&random=false&width=490&height=55&lines=Ol%C3%A1!+%F0%9F%99%8B%E2%80%8D%E2%99%82%EF%B8%8F+Meu+nome+%C3%A9+Igor;Hello!+%F0%9F%91%8B+My+name+is+Igor)](https://git.io/typing-svg)
