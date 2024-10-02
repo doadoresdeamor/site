@@ -22,6 +22,12 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
+/* solução para: nesta resolução o template cria um scroll-x */
+@media (max-width: 435px){
+  html,  body{
+    overflow-x: hidden; }  
+}
+
 
 a {
   color: var(--main-pink);
@@ -416,7 +422,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 30px 0;
 }
 
 .section-bg {
@@ -1033,6 +1039,11 @@ section {
   opacity: 0;
 }
 
+.album-end{
+  margin-bottom: 0px !important;
+  padding: 0px;
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -1372,7 +1383,7 @@ section {
   color: #fff;
   font-size: 14px;
   text-align: center;
-  padding: 80px 0;
+  padding: 20px 0;
   position: relative;
 }
 
