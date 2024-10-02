@@ -12,6 +12,7 @@ volunteer organization operating in Caxias do Sul (RS), Brazil.
   --nd-pink:#EFA0B4;
   --main-gray: gray;
   --nd-gray:#CEC0C0;
+  --main-bege:#f2d8c7;
   --main-white: white;
   --main-black: black;  }
 
@@ -340,7 +341,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background:rgba(0, 0, 0, 0.55);
+  background:rgba(39, 39, 39, 0.55);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1378,24 +1379,20 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/photos-and-icons/footer-photo.jpg") center center no-repeat;
-  background-size: cover;
-  color: #fff;
+  background: url("../img/photos-and-icons/footer-bgPNG2.png") center center no-repeat;
+  background-size:contain;
+  color: var(--main-white);    
   font-size: 14px;
   text-align: center;
   padding: 20px 0;
   position: relative;
 }
-
-#footer::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+@media (max-width: 575px){
+#footer{
+  background: url("../img/photos-and-icons/footer-bgPNG.png") center center no-repeat;
+  background-size: cover;}
 }
+
 
 #footer .container {
   position: relative;
