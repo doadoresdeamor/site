@@ -334,14 +334,14 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/foto1head.png") center center;
+  background: url("../img/photos-and-icons/head-bg.webp") center center;
   background-size: cover;
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background:rgba(39, 39, 39, 0.55);
+  background:rgba(0, 0, 0, 0.686);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -976,7 +976,7 @@ section {
 }
 
 .portfolio .portfolio-item {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .portfolio .portfolio-item .portfolio-img {
@@ -1038,6 +1038,10 @@ section {
 
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 0;
+}
+.img-fluid{
+  max-height: 550px;
+  justify-self: center;
 }
 
 .album-end{
@@ -1446,4 +1450,11 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+#footer .credits {
+  font-size: 12px;
+}
+#footer .credits a{
+  color: #5A43CB;
+  font-style: bold;
 }
