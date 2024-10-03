@@ -6,6 +6,10 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
+
+
+
 (function() {
   "use strict";
 
@@ -198,7 +202,7 @@
   /**
    * Porfolio isotope and filter
    */
-  window.addEventListener('load', () => {
+  content.addEventListener('load', () => {
     let portfolioContainer = select('.portfolio-container');
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
