@@ -28,9 +28,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- Animate -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="assets/css/loading.css" rel="stylesheet">
+  <link href="assets/css/progress-bar.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Laura
@@ -46,21 +45,27 @@
   <div id="loading" style="display: block">
 
     <div id="loading-container">
-        <img src="./assets/img/photos-and-icons/loadingGIF.gif" alt="" style="width: 200px;">
+      <div class="ring"> <img src="./assets/img/photos-and-icons/logo-loading.png" style="width: 90px;">
+        <span class="span-ring"></span>
       </div>
-
+    </div>
 
   </div>
 
   <div id="content" style="display: none">
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex justify-content-center align-items-center header-transparent">
-
     <nav id="navbar" class="navbar">
+                                <!-- Progress Bar -->
+                                <div id="progress-container">
+                                  <div id="progress-bar"></div>
+                                </div>
       <ul>
         <li><a class="nav-link scrollto active" href="#hero">Início</a></li>
         <li><a class="nav-link scrollto" href="#about">Quem Somos</a></li>
         <li><a class="nav-link scrollto" href="#services">Nossos Valores</a></li>
+        <li><a class="nav-link scrollto" href="#testimonials">Depoimentos</a></li>
+        <li><a class="nav-link scrollto" href="#proximoevento">Próximo Evento</a></li>
         <li><a class="dropdown nav-link scrollto" href="#pricing"><span>Faça Parte</span></a>
           <!-- <ul>
             <li><a
@@ -71,7 +76,9 @@
         <li><a class="nav-link scrollto" href="#contact">Nossas Redes</a></li>
         <li><a class="nav-link scrollto" href="#portfolio">Álbum de Fotos</a></li>
       </ul>
+
       <i class="bi bi-list mobile-nav-toggle"></i>
+
     </nav><!-- .navbar -->
 
   </header><!-- End Header -->
@@ -88,6 +95,10 @@
       <hr>
       <hr>
       <img src="./assets/img/photos-and-icons/logo1.png" alt="" style="width: 200px;">
+      <hr>
+      <hr>
+      <hr>
+      <hr>
       <hr>
       <hr>
       <hr>
@@ -296,7 +307,7 @@
       </div>
     </section><!-- End Depoimentos Section -->
     <!-- ======= Próximo Evento ======= -->
-    <section id="about" class="proximoevento">
+    <section id="proximoevento" class="proximoevento">
       <div class="container">
     
         <div class="section-title">
@@ -508,6 +519,8 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/loading.js"></script>
+  <script src="assets/js/progress-bar.js"></script>
+
 </div><!--  End of Div Content -->
 </body>
 
