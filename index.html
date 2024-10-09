@@ -19,6 +19,10 @@
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy"
     rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -30,7 +34,10 @@
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/loading.css" rel="stylesheet">
   <link href="assets/css/progress-bar.css" rel="stylesheet">
-
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   <!-- =======================================================
   * Template Name: Laura
   * Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
@@ -42,7 +49,7 @@
 
 <body>
   <!-- Loagind Inicial da Página -->
-  <div id="loading" style="display: block">
+  <div id="loading" style="display: block" class="animate__animated animate__fadeIn">
 
     <div id="loading-container">
       <div class="ring"> <img src="./assets/img/photos-and-icons/logo-loading.png" style="width: 90px;">
@@ -55,7 +62,7 @@
   <div id="content" style="display: none">
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex justify-content-center align-items-center header-transparent">
-    <nav id="navbar" class="navbar">
+    <nav id="navbar" class="navbar animate__animated animate__fadeInUpBig">
                                 <!-- Progress Bar -->
                                 <div id="progress-container">
                                   <div id="progress-bar"></div>
@@ -84,7 +91,7 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero">
+  <section id="hero" class="navbar">
     <div class="hero-container">
       <hr>
       <hr>
@@ -94,7 +101,7 @@
       <hr>
       <hr>
       <hr>
-      <img src="./assets/img/photos-and-icons/logo1.png" alt="" style="width: 200px;">
+      <img class="animate__animated animate__fadeIn" src="./assets/img/photos-and-icons/logo1.png" alt="" style="width: 200px;">
       <hr>
       <hr>
       <hr>
@@ -112,7 +119,7 @@
     <section id="about" class="about">
       <div class="container">
 
-        <div class="section-title animate__animated animate__bounce">
+        <div class="section-title">
           <span>Quem Somos</span>
           <h2>Quem Somos</h2>
         </div>
@@ -400,12 +407,12 @@
                   <i class="bx bx-share-alt"></i>
                   <div class="social-links">
                     <a href="https://www.flickr.com/photos/201130166@N07" class="flickr" target="_blank" title="Linkedin"><i
-                        class="bi bi-camera" title="Flickr"></i></a>
+                        class="bi bi-camera" title="Flickr"></i> Flickr</a>
 
                     <a href="https://www.instagram.com/doadoresdeamoroficial_" class="instagram"
-                      title="Instagram" target="_blank"><i class="bi bi-instagram" title="Instagram"></i></a>
+                      title="Instagram" target="_blank"><i class="bi bi-instagram" title="Instagram"></i> Instagram</a>
 
-                    <a href="https://www.linkedin.com/company/doadores-de-amor/" class="linkedin" target="_blank" title="Linkedin"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/company/doadores-de-amor/" class="linkedin" target="_blank" title="Linkedin"><i class="bi bi-linkedin"></i> Linkedin</a>
                   </div>
                 </div>
               </div>
@@ -483,21 +490,13 @@
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-    <br>
-    <br>
     <div class="container">
       <img src="./assets/img/photos-and-icons/logo1.png" alt="" style="width: 150px;">
-      <p>Desde 2017 levamos amor a quem mais precisa! 💗</p>
-
+      <p id="marca">Desde 2017 levamos amor a quem mais precisa! 💗</p>
 
       <div class="copyright">
-        Agradecemos sua visita
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/ -->
         Desenvolvido por <a href="https://igorlazzaretti.com/" target="_blank" title="Acesse meu Portfolio">Igor</a>
       </div>
     </div>
