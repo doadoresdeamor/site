@@ -14,9 +14,9 @@
 @media screen and (max-width: 990px){
     #progress-container {
         width: 100vw;
-        position: fixed;
-        top: 0px;
-        left: 0px;
+        position: absolute;
+        top: -4vw;
+        left: -47vw;
         height: 2px;
     }
     #progress-bar {

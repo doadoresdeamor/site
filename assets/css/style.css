@@ -1006,6 +1006,24 @@ section {
 .portfolio .portfolio-item .portfolio-img img {
   transition: all 0.8s ease-in-out;
 }
+.portfolio-img{
+  display: grid;
+  margin: 0;
+  padding: 0;
+}
+.portfolio-img img {
+  height: 25vw;
+  width: 50vw;
+  object-fit: contain;
+}
+@media screen and (max-width: 880px) {
+  
+.portfolio-img img {
+  height: 90vw;
+  width: 80%;
+  object-fit: contain;
+}
+}
 
 .portfolio .portfolio-item .portfolio-info {
   opacity: 0;
@@ -1137,6 +1155,23 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+.pricing {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, var(--main-bege), var(--nd-pink));
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .pricing .box {
   padding: 20px;
   background: #fff;
@@ -1285,7 +1320,7 @@ section {
 }
 
 .contact .social-links a {
-  font-size: 18px;
+  font-size: 20px;
   display: inline-block;
   color: #687683;
   line-height: 1;
@@ -1294,6 +1329,10 @@ section {
   padding: 14px;
   border-radius: 50px;
   border: 1px solid #dde1e4;
+}
+.contact .social-links a:hover {
+  transform: scale(1.1);
+  transition: 0.7s;
 }
 
 .contact .social-links a:hover {
@@ -1403,20 +1442,17 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/photos-and-icons/footer-bgPNG2.png") center center no-repeat;
-  background-size:contain;
-  color: var(--main-white);    
-  font-size: 14px;
+  background-color: #fff;
+  border-top: #E9426D solid 1px;    
   text-align: center;
   padding: 20px 0;
   position: relative;
 }
-@media (max-width: 575px){
-#footer{
-  background: url("../img/photos-and-icons/footer-bgPNG.png") center center no-repeat;
-  background-size: cover;}
+#footer #marca{
+  font-family: "Lobster", sans-serif;
+  font-size: 19px;
+  color: var(--main-pink);
 }
-
 
 #footer .container {
   position: relative;
