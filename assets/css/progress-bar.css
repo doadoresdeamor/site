@@ -17,10 +17,10 @@
         position: absolute;
         top: -4vw;
         left: -47vw;
-        height: 2px;
+        height: 6px;
     }
     #progress-bar {
-        height: 3px;
+        height: 6px;
         background-color: #e9426c93;
     }
 }  
