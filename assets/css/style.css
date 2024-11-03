@@ -1,7 +1,7 @@
 /*-----------------
 Hello I'm Igor Lazzaretti, from igorlazzaretti.com. I am an web developer and
-this web project is for educational purposes and will serve a non-profit 
-volunteer organization operating in Caxias do Sul (RS), Brazil. 
+this web project is for educational purposes and will serve a non-profit
+volunteer organization operating in Caxias do Sul (RS), Brazil.
 -------------------*/
 
 /*--------------------------------------------------------------
@@ -26,7 +26,7 @@ body {
 /* solução para: nesta resolução o template cria um scroll-x */
 @media (max-width: 435px){
   html,  body{
-    overflow-x: hidden; }  
+    overflow-x: hidden; }
 }
 
 
@@ -106,7 +106,7 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -223,7 +223,7 @@ h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -643,9 +643,9 @@ section {
   background-size: cover;
   min-height: 350px;
 }
-
+/* Próximo Evento - Altere Aqui - */
 .proximoevento .image {
-  background: url("../img/photos-and-icons/cdc-centrodiacaxias.jpg") center center no-repeat;
+  background: url("../img/photos-and-icons/creacri.jpg") center center no-repeat !important;
   background-size: cover;
   min-height: 350px;
 }
@@ -1017,7 +1017,7 @@ section {
   object-fit: contain;
 }
 @media screen and (max-width: 880px) {
-  
+
 .portfolio-img img {
   height: 90vw;
   width: 80%;
@@ -1443,7 +1443,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background-color: #fff;
-  border-top: #E9426D solid 1px;    
+  border-top: #E9426D solid 1px;
   text-align: center;
   padding: 20px 0;
   position: relative;
